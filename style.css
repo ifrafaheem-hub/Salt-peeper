@@ -84,14 +84,22 @@ nav {
 }
 .extra h1 {
   color: white;
-  font-size: 40px;
+  font-size: 35px;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  font-style: normal;
+      line-height: 50px;
+}
+@font-face{
+  font-family: futurak;
+  src: url(./font/futurak.ttf);
 }
 .extra h1 span {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 600;
-  font-size: 55px;
+ font-family: futurak;
+     font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+      line-height: 62px
 }
 .extra p {
   color: gray;
@@ -125,8 +133,8 @@ nav {
 .buttons button {
   color: white;
   background-color: black;
-  width: 175px;
-  height: 50px;
+  width: 140px;
+  height: 45px;
   border: 1px solid white;
   border-radius: 30px;
   font-size: 15px;
@@ -145,10 +153,11 @@ nav {
   padding-left: 50px;
 }
 .headingsalt h1 {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 600;
-  font-size: 55px;
+  font-family: futurak;
+  font-weight: 400;
+  font-size: 48px;
   color: white;
+      line-height: 60px;
 }
 @font-face {
   font-family: "ChunkFive";
@@ -160,7 +169,7 @@ nav {
 }
 .headingsalt p {
   color: gray;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
 }
 .container4 {
